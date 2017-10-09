@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+body {margin:0;}
+#menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #CCC;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 20;
+	opacity: 0.5;
+}
+#menu li{
+    float: right;
+}
+#menu li a {
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #FFF;
+
+}
+
+.active {
+	background-color: #009933;
+}
+#left ul{
+	position: fixed;
+	top: 50px;
+	width: 300px;
+	height: 100%;
+	text-align: center;
+	border: 1px solid #000;
+	background-color: #FFF;
+	font-family: "仿宋";
+	font-size: 20px;
+	font-weight: bold;
+	list-style:none;
+	}
+a{
+	text-decoration: none;
+	
+}
+.name{
+	font-size: 28px;
+	font-family: "华文行楷";
+	color: #006;
+	list-style: none;
+}
+#pig{
+	position: absolute;
+	left: 490px;
+	top: 217px;
+	width: 600px;
+	}
+#picture1{
+	position: absolute;
+	left: 488px;
+	top: 87px;
+	width: 496px;
+	height: 75px;
+}
+#rabbit{
+	position: absolute;
+	left: 488px;
+	top: 571px;
+	}
+#pika{
+	position: absolute;
+	left: 487px;
+	top: 895px;
+	width: 600px;
+	}
+#house{
+	position: absolute;
+	left: 487px;
+	top: 1254px;
+	width: 600px;
+	}
+#boss{
+	position: absolute;
+	left: 485px;
+	top: 1646px;
+	width: 600px;
+	}
+h3 {
+	color: #F60;
+	font-weight: bold;
+	font-family: "华文隶书";
+	font-size: 28px;
+}
+#left ul #list li a {
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+#end{
+	position: absolute;
+	left: 0px;
+	top: 2128px;
+	width: 100%;
+	font-family: "华文彩云";
+	color: #999;
+	font-size: 18px;
+	background-color: #999;
+	}
+#end p {
+	font-family: "华文隶书";
+	color: #FFF;
+	text-align: center;
+	font-size: 24px;
+}
+
